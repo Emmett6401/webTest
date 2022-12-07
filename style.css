@@ -1,0 +1,76 @@
+body {
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  text-align: center;
+  width: 480px;
+  height: 600px;
+  padding: 10px;
+  position: relative;
+  font-family: "Cute Font", cursive;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background-color: aquamarine;
+}
+
+.icon {
+  position: absolute;
+  top: 20px;
+  right: 220px;
+  cursor: pointer;
+  background-color: rgba(120, 228, 222, 0.2);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon i {
+  font-size: 22px;
+  color: #b9dad9;
+}
+
+.camera {
+  border-radius: 20px;
+  background-color: white;
+  width: 480px;
+  height: 480px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
+.percent {
+  font-family: "Nerko One", cursive;
+
+  font-size: 18px;
+  font-style: italic;
+}
+
+.icon .invisible {
+  display: none;
+}
+.semi-name {
+  font-size: 15px;
+}
+
+.ktop4 {
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Cute Font", cursive;
+}
+.sds {
+}
